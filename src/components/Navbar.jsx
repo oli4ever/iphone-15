@@ -37,14 +37,14 @@ const Navbar = () => {
           </a>
 
           {/* Desktop Navigation - Center aligned */}
-          <div className="hidden lg:flex flex-1 justify-center mx-2 lg:mx-4">
+          <div className="hidden lg:flex flex-1 justify-center mx-2 lg:mx-5">
             {navLists.map((nav) => (
               <a
                 key={nav}
                 href={navLinks[nav] || "#"}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-base cursor-pointer text-gray-400 hover:text-teal-200 transition-all px-2 lg:px-3"
+                className="text-base mx-5 cursor-pointer text-gray-400 hover:text-teal-200 transition-all px-2 lg:px-3"
               >
                 {nav}
               </a>

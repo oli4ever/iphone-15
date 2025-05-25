@@ -1,7 +1,7 @@
 <div align="center">
   <br />
     <a href="https://youtu.be/kRQbRAJ4-Fs" target="_blank">
-      <img src="https://i.postimg.cc/37PnQw8n/Image-from.png" alt="Project Banner">
+      <img src="https://i.imgur.com/3VbM9wG.jpeg" alt="Project Banner">
     </a>
   <br />
 
@@ -31,7 +31,7 @@
 
 ## 🚨 Tutorial
 
-This repository contains the code corresponding to an in-depth tutorial available on our YouTube channel, <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a>. 
+This repository contains the code corresponding to an in-depth tutorial available on our YouTube channel, <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a>.
 
 If you prefer visual learning, this is the perfect resource for you. Follow our tutorial to learn how to build projects like these step-by-step in a beginner-friendly manner!
 
@@ -65,7 +65,7 @@ If you're getting started and need assistance or face any bugs, join our active 
 
 👉 **Completely Responsive**: Consistent access and optimal viewing on any device with a fully responsive design that adapts to different screen sizes.
 
-and many more, including code architecture and reusability 
+and many more, including code architecture and reusability
 
 ## <a name="quick-start">🤸 Quick Start</a>
 
@@ -304,27 +304,28 @@ const Lights = () => {
 
 export default Lights;
 ```
+
 </details>
 
 <details>
 <summary><code>materials</code></summary>
 
 ```javascript
-    useEffect(() => {
-      Object.entries(materials).map((material) => {
-        // these are the material names that can't be changed color
-        if (
-          material[0] !== "zFdeDaGNRwzccye" &&
-          material[0] !== "ujsvqBWRMnqdwPx" &&
-          material[0] !== "hUlRcbieVuIiOXG" &&
-          material[0] !== "jlzuBkUzuJqgiAK" &&
-          material[0] !== "xNrofRCqOXXHVZt"
-        ) {
-          material[1].color = new THREE.Color(props.item.color[0]);
-        }
-        material[1].needsUpdate = true;
-      });
-    }, [materials, props.item]);
+useEffect(() => {
+  Object.entries(materials).map((material) => {
+    // these are the material names that can't be changed color
+    if (
+      material[0] !== "zFdeDaGNRwzccye" &&
+      material[0] !== "ujsvqBWRMnqdwPx" &&
+      material[0] !== "hUlRcbieVuIiOXG" &&
+      material[0] !== "jlzuBkUzuJqgiAK" &&
+      material[0] !== "xNrofRCqOXXHVZt"
+    ) {
+      material[1].color = new THREE.Color(props.item.color[0]);
+    }
+    material[1].needsUpdate = true;
+  });
+}, [materials, props.item]);
 ```
 
 </details>
@@ -567,7 +568,6 @@ const VideoCarousel = () => {
 };
 
 export default VideoCarousel;
-
 ```
 
 </details>
@@ -634,6 +634,7 @@ export const explore2Img = explore2;
 export const chipImg = chip;
 export const frameImg = frame;
 ```
+
 </details>
 
 <details>
@@ -673,95 +674,95 @@ canvas {
 
 @layer utilities {
   .flex-center {
-    @apply flex items-center justify-center
+    @apply flex items-center justify-center;
   }
 
   .nav-height {
-    @apply h-[calc(100vh-60px)]
+    @apply h-[calc(100vh-60px)];
   }
 
   .btn {
-    @apply px-5 py-2 rounded-3xl bg-blue my-5 hover:bg-transparent border border-transparent hover:border hover:text-blue hover:border-blue
+    @apply px-5 py-2 rounded-3xl bg-blue my-5 hover:bg-transparent border border-transparent hover:border hover:text-blue hover:border-blue;
   }
 
   .color-container {
-    @apply flex items-center justify-center px-4 py-4 rounded-full bg-gray-300 backdrop-blur
+    @apply flex items-center justify-center px-4 py-4 rounded-full bg-gray-300 backdrop-blur;
   }
 
   .size-btn-container {
-    @apply flex items-center justify-center p-1 rounded-full bg-gray-300 backdrop-blur ml-3 gap-1
+    @apply flex items-center justify-center p-1 rounded-full bg-gray-300 backdrop-blur ml-3 gap-1;
   }
 
   .size-btn {
-    @apply w-10 h-10 text-sm flex justify-center items-center bg-white text-black rounded-full transition-all
+    @apply w-10 h-10 text-sm flex justify-center items-center bg-white text-black rounded-full transition-all;
   }
 
   .common-padding {
-    @apply sm:py-32 py-20 sm:px-10 px-5
+    @apply sm:py-32 py-20 sm:px-10 px-5;
   }
 
   .section-heading {
-    @apply text-gray lg:text-6xl md:text-5xl text-3xl lg:mb-0 mb-5 font-medium opacity-0 translate-y-20
+    @apply text-gray lg:text-6xl md:text-5xl text-3xl lg:mb-0 mb-5 font-medium opacity-0 translate-y-20;
   }
 
   .feature-text {
-    @apply text-gray max-w-md text-lg md:text-xl font-semibold opacity-0 translate-y-[100px]
+    @apply text-gray max-w-md text-lg md:text-xl font-semibold opacity-0 translate-y-[100px];
   }
 
   .feature-text-container {
-    @apply w-full flex-center flex-col md:flex-row mt-10 md:mt-16 gap-5
+    @apply w-full flex-center flex-col md:flex-row mt-10 md:mt-16 gap-5;
   }
 
   .feature-video {
-    @apply w-full h-full object-cover object-center scale-150 opacity-0
+    @apply w-full h-full object-cover object-center scale-150 opacity-0;
   }
 
   .feature-video-container {
-    @apply w-full flex flex-col md:flex-row gap-5 items-center
+    @apply w-full flex flex-col md:flex-row gap-5 items-center;
   }
 
   .link {
-    @apply text-blue hover:underline cursor-pointer flex items-center text-xl opacity-0 translate-y-20
+    @apply text-blue hover:underline cursor-pointer flex items-center text-xl opacity-0 translate-y-20;
   }
 
   .control-btn {
-    @apply ml-4 p-4 rounded-full bg-gray-300 backdrop-blur flex-center
+    @apply ml-4 p-4 rounded-full bg-gray-300 backdrop-blur flex-center;
   }
 
   .hero-title {
-    @apply text-center font-semibold text-3xl text-gray-100 opacity-0 max-md:mb-10
+    @apply text-center font-semibold text-3xl text-gray-100 opacity-0 max-md:mb-10;
   }
 
   .hiw-title {
-    @apply text-4xl md:text-7xl font-semibold text-center
+    @apply text-4xl md:text-7xl font-semibold text-center;
   }
 
   .hiw-subtitle {
-    @apply text-gray font-semibold text-xl md:text-2xl py-10 text-center
+    @apply text-gray font-semibold text-xl md:text-2xl py-10 text-center;
   }
 
   .hiw-video {
-    @apply absolute w-[95%] h-[90%] rounded-[56px] overflow-hidden
+    @apply absolute w-[95%] h-[90%] rounded-[56px] overflow-hidden;
   }
 
   .hiw-text-container {
-    @apply flex md:flex-row flex-col justify-between items-start gap-24
+    @apply flex md:flex-row flex-col justify-between items-start gap-24;
   }
 
   .hiw-text {
-    @apply text-gray text-xl font-normal md:font-semibold
+    @apply text-gray text-xl font-normal md:font-semibold;
   }
 
   .hiw-bigtext {
-    @apply text-white text-3xl md:text-5xl font-normal md:font-semibold my-2
+    @apply text-white text-3xl md:text-5xl font-normal md:font-semibold my-2;
   }
 
   .video-carousel_container {
-    @apply relative sm:w-[70vw] w-[88vw] md:h-[70vh] sm:h-[50vh] h-[35vh]
+    @apply relative sm:w-[70vw] w-[88vw] md:h-[70vh] sm:h-[50vh] h-[35vh];
   }
 
   .g_fadeIn {
-    @apply opacity-0 translate-y-[100px]
+    @apply opacity-0 translate-y-[100px];
   }
 }
 ```
