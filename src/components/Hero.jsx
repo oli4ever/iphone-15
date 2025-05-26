@@ -42,7 +42,7 @@ const Hero = () => {
       <div className="h-[100vh] w-full flex-center flex-col mt-16">
         <h1
           id="hero-title"
-          className="text-6xl font-medium tracking-tighter text-gray-200 bg-clip-text bg-gradient-to-r from-teal-400 to-teal-300 mb-8"
+          className="text-6xl font-medium tracking-tighter text-gray-200 bg-clip-text bg-gradient-to-r from-teal-400 to-teal-300 mb-4"
         >
           iPhone 15 Pro
         </h1>
@@ -60,7 +60,7 @@ const Hero = () => {
         </div>
         <div
           ref={ctaRef}
-          className="flex flex-col items-center opacity-0 mt-6"
+          className="flex flex-col items-center opacity-0 mt-3"
         >
           <a
             href="#highlights"
@@ -72,7 +72,7 @@ const Hero = () => {
             </span>
           </a>
           <div className="mt-6 text-center space-y-1">
-            <p className="font-semibold text-neutral-100 text-sm md:text-base lg:text-lg">
+            <p className="font-semibold text-neutral-100 text-sm md:text-base">
               Starting at $699 or $29.12/mo. for 24 mo.*
             </p>
           </div>
