@@ -1,8 +1,6 @@
-<div align="center">
 [![Vercel](https://img.shields.io/badge/Deployed_on-Vercel-black?logo=vercel)](https://iphone-15-murex.vercel.app)
 [![React](https://img.shields.io/badge/React-18.2-blue?logo=react)](https://reactjs.org)
 [![License](https://img.shields.io/badge/License-MIT-green)](https://opensource.org/licenses/MIT)
-</div>
 
 <div>
 <h3 align="center">iPhone 15 Product Showcase</h3>
