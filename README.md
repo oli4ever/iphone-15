@@ -1,4 +1,3 @@
-````markdown
 [![Vercel](https://img.shields.io/badge/Deployed_on-Vercel-black?logo=vercel)](https://iphone-15-murex.vercel.app)
 [![React](https://img.shields.io/badge/React-18.2-blue?logo=react)](https://reactjs.org)
 [![License](https://img.shields.io/badge/License-MIT-green)](https://opensource.org/licenses/MIT)
@@ -62,6 +61,7 @@ Make sure you have the following installed on your machine:
 git clone https://github.com/oli4ever/iphone-15.git
 cd iphone-15
 ```
+
 ````
 
 **Installation**
@@ -83,3 +83,4 @@ Open [http://localhost:5173](http://localhost:5173) in your browser to view the 
 **Deployment**
 
 This project is configured for easy deployment on Vercel. You can also deploy to other platforms like Netlify or GitHub Pages.
+````
