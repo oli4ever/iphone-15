@@ -4,7 +4,7 @@
       A modern React.js showcase for iPhone 15 features with smooth animations and responsive design.
     </div>
   <br />
-  <img src="iPhone 15 Screenshot](https://i.imgur.com/JJxXbi6.jpeg" alt="Project Banner">
+  <img src="https://i.imgur.com/JJxXbi6.jpeg" alt="Project Banner">
   <br />
 
   <div>
