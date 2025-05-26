@@ -39,10 +39,10 @@ const Hero = () => {
     <section className="w-full min-h-[100vh] bg-gradient-to-b from-neutral-950 to-zinc-900 relative overflow-hidden">
       <div className="absolute inset-0 bg-[url('/noise-texture.png')] opacity-5 mix-blend-overlay" />
 
-      <div className="h-[85vh] w-full flex-center flex-col mt-24">
+      <div className="h-[100vh] w-full flex-center flex-col mt-24">
         <h1
           id="hero-title"
-          className="text-6xl md:text-8xl font-medium tracking-tighter text-gray-200 bg-clip-text bg-gradient-to-r from-teal-400 to-teal-300 mb-8"
+          className="text-6xl md:text-4xl font-medium tracking-tighter text-gray-200 bg-clip-text bg-gradient-to-r from-teal-400 to-teal-300 mb-8"
         >
           iPhone 15 Pro
         </h1>
