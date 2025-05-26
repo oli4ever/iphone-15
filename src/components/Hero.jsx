@@ -71,7 +71,7 @@ const Hero = () => {
               <span className="opacity-0 group-hover:opacity-100 transition-opacity duration-300"></span>
             </span>
           </a>
-          <div className="mt-6 text-center space-y-1">
+          <div className="mt-4 text-center space-y-1">
             <p className="font-semibold text-neutral-100 text-sm md:text-base">
               Starting at $699 or $29.12/mo. for 24 mo.*
             </p>
