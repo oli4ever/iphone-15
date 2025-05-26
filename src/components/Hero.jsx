@@ -39,10 +39,10 @@ const Hero = () => {
     <section className="w-full min-h-[100vh] bg-gradient-to-b from-neutral-950 to-zinc-900 relative overflow-hidden">
       <div className="absolute inset-0 bg-[url('/noise-texture.png')] opacity-5 mix-blend-overlay" />
 
-      <div className="h-[100vh] w-full flex-center flex-col mt-14">
+      <div className="h-[85vh] w-full flex-center flex-col mt-16">
         <h1
           id="hero-title"
-          className="text-6xl font-medium tracking-tighter text-gray-200 bg-clip-text bg-gradient-to-r from-teal-400 to-teal-300 mb-4"
+          className="text-6xl font-medium tracking-tighter text-gray-200 bg-clip-text bg-gradient-to-r from-teal-400 to-teal-300 mb-8"
         >
           iPhone 15 Pro
         </h1>
@@ -60,7 +60,7 @@ const Hero = () => {
         </div>
         <div
           ref={ctaRef}
-          className="flex flex-col items-center opacity-0 mt-3"
+          className="flex flex-col items-center opacity-0 mt-3 sm:mt-10"
         >
           <a
             href="#highlights"
@@ -71,8 +71,8 @@ const Hero = () => {
               <span className="opacity-0 group-hover:opacity-100 transition-opacity duration-300"></span>
             </span>
           </a>
-          <div className="mt-3 text-center space-y-1">
-            <p className="font-semibold text-neutral-100 text-sm md:text-base">
+          <div className="mt-2 text-center space-y-1">
+            <p className="font-semibold text-neutral-100 text-sm md:text-base lg:text-lg">
               Starting at $699 or $29.12/mo. for 24 mo.*
             </p>
           </div>
